@@ -1,4 +1,4 @@
-#Multilingual App Toolkit SYSTRAN translation provider
+# Multilingual App Toolkit SYSTRAN translation provider
 
 Multilingual App Toolkit is solution provided by Microsoft for application localization:
 >The Multilingual App Toolkit v4.0 supports Windows 10 Universal, Windows 8.1 Shared project, WPF, WinForms, Windows Phone, ASP.Net apps and VS + Xamarin based iOS / Android projects.
@@ -7,7 +7,7 @@ Multilingual App Toolkit includes a dedicated xliff editor and an extension for 
 
 This provider add support for translation made by [SYSTRAN Platform REST](https://platform.systran.net/) using [Translation API](https://platform.systran.net/reference/translation).
 
-##SYSTRAN Platform API Key
+## SYSTRAN Platform API Key
 
 You need to get a valid API key from [SYSTRAN Platform here](https://platform.systran.net/) (Registration is required, but it is free). 
 
@@ -15,13 +15,13 @@ You need to get a valid API key from [SYSTRAN Platform here](https://platform.sy
 
 Then set it in the `Key` variable in SYSTRAN.DataProvider.json.
 
-##How to build
+## How to build
 
 This sample is built referencing **Microsoft.Multilingual.Translation.dll** 4.0.1605.0 directly from Multilingual App Toolkit installation folder. You need to install MAT first to be able to build this solution.
 
 If you are targeting a different build of MAT, you will need to build against that version of the DLL as well as adjust for any API changes.
 
-##How to install
+## How to install
 
 You need to install MAT it first to be able to build this solution.
 
@@ -32,9 +32,9 @@ Once the project is built, you will need to add it to the MAT Provider configura
    This file contains SYSTRAN 8 server Url (usually https://api-platform.systran.net/) and API Key:
    ```json
    {
-   		"Url": "https://api-platform.systran.net/",
-   		"Key": "xxxxxxxxxxxxxxxxxxx"
-   	}
+   	"Url": "https://api-platform.systran.net/",
+   	"Key": "xxxxxxxxxxxxxxxxxxx"
+   }
    ```
    3. Update `%ALLUSERSPROFILE%\Multilingual App Toolkit\TranslationManager.xml` to enable the
    SYSTRAN provider by adding the following XML configuration (Requires admin rights).  
@@ -64,7 +64,7 @@ To test the provider after it is built and configured:
 
 That should get you working.
 
-##Trouble shooting
+## Trouble shooting
 
 If you compile using Debug configuration, a log file is created here: `C:\\Users\\*user_name*\\AppData\\Local\\Temp\\SYSTRAN.TranslationProvider.log`
 
@@ -76,11 +76,11 @@ If you compile using Debug configuration, a log file is created here: `C:\\Users
 
 **A**: The provider needs to be compiled against the same build as the Microsoft.Multilingual.Translation.dll installed on your system. If you try to translate a resource, the load error will be displayed in the Editor Message tab or in  Visual Studio's output panel. The message should provide the details of the error.
 
-##Additional information
-###Links related to the Multilingual App Toolkit
+## Additional information
+### Links related to the Multilingual App Toolkit
 * [Installation](https://visualstudiogallery.msdn.microsoft.com/6dab9154-a7e1-46e4-bbfa-18b5e81df520)
 * [Blogs](http://blogs.msdn.com/b/matdev/)
 * [User Voice Site](http://multilingualapptoolkit.uservoice.com)
 
-###Links related to SYSTRAN
+### Links related to SYSTRAN
 * [SYSTRAN Platform Rest APIs](https://platform.systran.net/)
