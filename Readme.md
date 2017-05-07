@@ -19,11 +19,9 @@ Then set it in the `Key` variable in SYSTRAN.DataProvider.json.
 
 This sample is built referencing **Microsoft.Multilingual.Translation.dll** 4.0.1605.0 directly from Multilingual App Toolkit installation folder. You need to install MAT first to be able to build this solution.
 
-If you are targeting a different build of MAT, you will need to build against that version of the DLL as well as adjust for any API changes.
+If you are targeting a different version of MAT, you will need to build against that version of the DLL as well as adjust for any API changes.
 
 ## How to install
-
-You need to install MAT it first to be able to build this solution.
 
 Once the project is built, you will need to add it to the MAT Provider configuration files. Following the steps below will enable this provider with your MAT 4.0 installation:
 
