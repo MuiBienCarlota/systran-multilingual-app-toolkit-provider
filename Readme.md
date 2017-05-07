@@ -3,7 +3,7 @@
 Multilingual App Toolkit is solution provided by Microsoft for application localization:
 >The Multilingual App Toolkit v4.0 supports Windows 10 Universal, Windows 8.1 Shared project, WPF, WinForms, Windows Phone, ASP.Net apps and VS + Xamarin based iOS / Android projects.
 
-Multilingual App Toolkit includes a dedicated xliff editor and an extension for Visual Studio. More details [here](https://visualstudiogallery.msdn.microsoft.com/6dab9154-a7e1-46e4-bbfa-18b5e81df520).
+Multilingual App Toolkit includes a dedicated xliff editor and an extension for Visual Studio. More details [here for VS 2013/2015](https://visualstudiogallery.msdn.microsoft.com/6dab9154-a7e1-46e4-bbfa-18b5e81df520) and [here for VS 2017](https://marketplace.visualstudio.com/items?itemName=MultilingualAppToolkit.MultilingualAppToolkit-18308).
 
 This provider add support for translation made by [SYSTRAN Platform REST](https://platform.systran.net/) using [Translation API](https://platform.systran.net/reference/translation).
 
